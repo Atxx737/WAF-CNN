@@ -1,0 +1,15 @@
+{
+    "dictionary": [
+        {
+            "dictionaryID": "0",
+            "payload": "example",
+            "dictionaryFrequency": 0
+        },
+        {
+            "dictionaryID": "1",
+            "payload": "example",
+            "dictionaryFrequency": 100
+        }
+        
+    ]
+}
