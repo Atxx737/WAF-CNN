@@ -105,5 +105,6 @@ def createDictionary():
 def main():
     cleanDataSet(DATASET_FILE)
     createDictionary()
+    createImage()
     
 main()
