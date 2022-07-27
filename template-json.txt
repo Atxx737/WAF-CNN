@@ -1,0 +1,19 @@
+{
+    "dictionary": [
+        {
+            "dictionaryID": 0,
+            "payload": "example",
+            "dictionaryFrequency": 0
+        }
+    ]
+}
+
+{
+    "filterPayload": [
+        {
+            "dataID": 0,
+            "data": "example",
+            "label": 0
+        }
+    ]
+}

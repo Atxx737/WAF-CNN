@@ -3,9 +3,12 @@
 import linecache
 import json
 
-#Define env
+from filterPayload import *
 
-DATASET_FILE='anomalousTrafficTest.txt'
+#Define env
+# DATASET_FILE='anomalousTrafficTest.txt'
+# DATASET_FILE='normalTrafficTest.txt'
+DATASET_FILE='normalTrafficTraining.txt'
 DICTIONARY_FILE='dictionary.json'
 DICTIONARY_BACKUP='dictionary-backup.json'
 FULL_PAYLOAD_FILE='payload.txt'
@@ -105,6 +108,6 @@ def createDictionary():
 def main():
     cleanDataSet(DATASET_FILE)
     createDictionary()
-    createImage()
+    f_filterPayload()
     
 main()
